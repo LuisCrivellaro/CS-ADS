@@ -1,0 +1,97 @@
+/* ========== CTA Section ========== */
+.cta {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, hsl(210, 20%, 6%) 0%, hsl(210, 18%, 12%) 50%, hsl(174, 50%, 10%) 100%);
+}
+
+.cta .gradient-orb-tiffany {
+  width: 600px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cta-content {
+  max-width: 768px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cta-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: hsla(174, 50%, 55%, 0.1);
+  border: 1px solid hsla(174, 50%, 55%, 0.2);
+  border-radius: 9999px;
+  margin-bottom: 2rem;
+}
+
+.cta-badge-text {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--primary);
+}
+
+.cta-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  color: var(--foreground);
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.cta-description {
+  font-size: 1.125rem;
+  color: var(--muted-foreground);
+  margin-bottom: 2.5rem;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.7;
+}
+
+.cta-description strong {
+  color: var(--foreground);
+}
+
+.cta-main-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 2.5rem;
+  background-color: var(--whatsapp);
+  color: white;
+  font-weight: 700;
+  font-size: 1.125rem;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+  margin-bottom: 3rem;
+}
+
+.cta-main-btn:hover {
+  background-color: var(--whatsapp-hover);
+  transform: scale(1.05);
+  box-shadow: 0 20px 60px -15px rgba(37, 211, 102, 0.6);
+}
+
+.cta-trust-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.cta-trust-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--muted-foreground);
+}
+
+.cta-trust-item span {
+  font-size: 0.875rem;
+}

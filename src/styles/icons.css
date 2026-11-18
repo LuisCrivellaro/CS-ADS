@@ -1,0 +1,21 @@
+/* ========== SVG Icons ========== */
+.icon {
+  width: 24px;
+  height: 24px;
+  color: var(--primary);
+}
+
+.icon-lg {
+  width: 32px;
+  height: 32px;
+}
+
+.icon-sm {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-xs {
+  width: 16px;
+  height: 16px;
+}

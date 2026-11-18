@@ -1,0 +1,18 @@
+/*
+ * Stylesheet entry. Order mirrors the cascade of the reference page:
+ * WordPress theme/core layer first, then the page's own <style> block section by section.
+ */
+@import './wp/fonts.css';
+@import './wp/wordpress.css';
+
+@import './base.css';
+@import './sections/header.css';
+@import './sections/hero.css';
+@import './sections/social-proof.css';
+@import './sections/services.css';
+@import './sections/differentials.css';
+@import './sections/cta.css';
+@import './sections/footer.css';
+@import './sections/whatsapp-float.css';
+@import './icons.css';
+@import './responsive.css';

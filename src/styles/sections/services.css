@@ -1,0 +1,126 @@
+/* ========== Services Section ========== */
+.services {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--background);
+}
+
+.services .gradient-orb-gold {
+  width: 400px;
+  height: 400px;
+  top: 80px;
+  right: -160px;
+}
+
+.services .gradient-orb-tiffany {
+  width: 300px;
+  height: 300px;
+  bottom: 160px;
+  left: -80px;
+}
+
+.section-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+}
+
+.section-header .divider-tiffany {
+  margin: 0 auto 1.5rem;
+}
+
+.section-label {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.75rem;
+}
+
+.section-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  color: var(--foreground);
+  margin-bottom: 1.5rem;
+}
+
+.section-description {
+  color: var(--muted-foreground);
+  line-height: 1.7;
+}
+
+.service-block {
+  background-color: var(--card);
+  border: 1px solid hsla(210, 15%, 20%, 0.5);
+  border-radius: 1rem;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  transition: all 0.5s ease;
+}
+
+.service-block:hover {
+  border-color: hsla(174, 50%, 55%, 0.3);
+  box-shadow: 0 20px 60px -15px rgba(0, 0, 0, 0.3);
+}
+
+.service-block-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.service-block-icon {
+  width: 64px;
+  height: 64px;
+  background-color: hsla(174, 50%, 55%, 0.1);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.service-block h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.75rem;
+  color: var(--foreground);
+}
+
+.service-block-content {
+  color: var(--muted-foreground);
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.service-block-content strong {
+  color: var(--foreground);
+}
+
+.service-keywords {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+  font-style: italic;
+  padding-top: 1rem;
+  border-top: 1px solid hsla(210, 15%, 20%, 0.5);
+  margin-top: 1rem;
+}
+
+.service-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.875rem 1.5rem;
+  background-color: var(--whatsapp);
+  color: white;
+  font-weight: 600;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+}
+
+.service-cta:hover {
+  background-color: var(--whatsapp-hover);
+  transform: scale(1.02);
+}

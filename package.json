@@ -1,0 +1,15 @@
+{
+  "name": "cs-advocacia-de-familia",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Recriação fiel da página https://carolinasantos.com.br/advocacia-de-familia/",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "5.4.11"
+  }
+}

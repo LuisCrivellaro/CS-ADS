@@ -1,0 +1,77 @@
+/* ========== Social Proof Section ========== */
+.social-proof {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--card);
+  padding: 4rem 1rem;
+}
+
+.social-proof-content {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.social-proof-headline {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.75rem;
+  color: var(--foreground);
+  margin-bottom: 1rem;
+}
+
+.social-proof-subheadline {
+  font-size: 1.125rem;
+  color: var(--muted-foreground);
+  margin-bottom: 2.5rem;
+}
+
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.stat-box {
+  background: linear-gradient(135deg, hsla(174, 50%, 55%, 0.1), hsla(42, 65%, 55%, 0.05));
+  border: 1px solid hsla(174, 50%, 55%, 0.2);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.stat-number {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+  margin-top: 0.25rem;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.service-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: hsla(210, 15%, 18%, 0.5);
+  border: 1px solid hsla(210, 15%, 20%, 0.5);
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  color: var(--foreground);
+}
+
+.service-tag svg {
+  color: var(--primary);
+}
